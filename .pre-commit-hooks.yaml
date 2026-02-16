@@ -1,0 +1,5 @@
+- id: sync-readme-to-docs
+  name: Sync README.md -> docs/README.md
+  entry: python sync_readme.py
+  language: python
+  pass_filenames: false
