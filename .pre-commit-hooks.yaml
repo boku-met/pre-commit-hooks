@@ -1,5 +1,5 @@
 - id: sync-readme-to-docs
-  name: Sync README.md -> docs/README.md
+  name: Sync README.md -> docs/index.md
   entry: python -m pre_commit_hooks.sync_readme
   language: python
   pass_filenames: false
